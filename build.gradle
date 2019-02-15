@@ -17,8 +17,10 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    compileOnly 'org.projectlombok:lombok'
+//    compileOnly 'org.projectlombok:lombok'
+    provided group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
     compileOnly 'mysql:mysql-connector-java'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.47'
 }
