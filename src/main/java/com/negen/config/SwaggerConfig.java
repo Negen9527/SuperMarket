@@ -37,7 +37,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //页面标题
-                .title("建议超市商品管理系统Restful API")
+                .title("简易超市商品管理系统Restful API")
                 //创建人
                 .contact("Negen")
                 //版本号
