@@ -21,6 +21,7 @@ public class Sold {
 
     private Timestamp soldTime;                //售出时间
     private String soldProductBars;            //售出商品条码数组
-    private int soldProductCount;              //售出商品对应数量数组
+    private String soldProductCount;              //售出商品对应数量数组
+    private String soldProductName;              //售出商品对应名称数组
     private double soldTotalMoney;             //售出总价
 }

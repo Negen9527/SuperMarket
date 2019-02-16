@@ -37,8 +37,6 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.2'
     annotationProcessor 'org.projectlombok:lombok:1.18.4'
 
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.4'
-    testCompileOnly 'org.projectlombok:lombok:1.18.2'
 //    compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.2'
 
 

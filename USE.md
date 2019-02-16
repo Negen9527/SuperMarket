@@ -18,8 +18,8 @@
 2 | soldTime | timestamp |   | NO | 售出时间
 3 | soldProductBars | list |   | NO | 售出商品条码数组
 4 | soldProductCount | list |   | NO | 售出商品对应数量数组
-5 | soldTotalMoney | double | 5  | NO | 售出总价
-
+5 | soldProductName | list |   | NO | 售出商品对应名称数组
+6 | soldTotalMoney | double | 5  | NO | 售出总价
 
 #### 3.卷烟表(t_cigar)
 序号 | 字段名 | 类型 | 长度 | isNull| 备注
