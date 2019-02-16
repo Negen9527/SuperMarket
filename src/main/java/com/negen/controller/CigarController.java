@@ -17,7 +17,7 @@ import java.util.List;
 
 @Api("product相关API")
 @RestController
-@RequestMapping(value = "/product")
+@RequestMapping(value = "/cigar")
 public class CigarController {
     @Autowired
     CigarRepository cigarRepository;
